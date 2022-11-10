@@ -1,0 +1,61 @@
+
+.username{
+    padding: 2.5px; 
+    position: relative;
+    left: 100px;
+    
+}
+.Email{
+    padding: 5px;
+    position: relative;
+    left: 125px;
+}
+.password{
+    padding: 10px;
+    position: relative;
+    left: 100px;
+}
+.button{
+    position: relative;
+    padding: 12.5px;
+    left: 125px;
+}
+#p2{
+    position: relative;
+    padding: 15px;
+    left: 150px;
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 15%;
+    height: 50%;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .googleimg {
+    display: block;
+    width: 100%;
+    height: 50%;
+    
+  }
